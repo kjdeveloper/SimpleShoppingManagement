@@ -1,0 +1,47 @@
+[
+  {
+    "customer": {
+      "name": "KA",
+      "surname": "JAN",
+      "age": 31,
+      "email": "KAMILJA@gmail.com"
+    },
+    "product": {
+      "name": "BG",
+      "price": 1,
+      "category": "C"
+    },
+    "quantity": 1,
+    "orderDate": "2021-01-02"
+  },
+  {
+    "customer": {
+      "name": "KRA",
+      "surname": "AN",
+      "age": 34,
+      "email": "KAA@gmail.com"
+    },
+    "product": {
+      "name": "B",
+      "price": 1,
+      "category": "A"
+    },
+    "quantity": 1,
+    "orderDate": "2021-01-05"
+  },
+  {
+    "customer": {
+      "name": "KAQE",
+      "surname": "JA",
+      "age": 33,
+      "email": "ILJA@gmail.com"
+    },
+    "product": {
+      "name": "G",
+      "price": 1,
+      "category": "B"
+    },
+    "quantity": 1,
+    "orderDate": "2021-02-10"
+  }
+]

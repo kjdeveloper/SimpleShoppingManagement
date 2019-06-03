@@ -1,0 +1,242 @@
+[
+  {
+    "customer": {
+      "name": "MAJKA",
+      "surname": "MESSI",
+      "age": 66,
+      "email": "MAJKAMESSI@gmail.com"
+    },
+    "product": {
+      "name": "TABLET",
+      "price": 793,
+      "category": "C"
+    },
+    "quantity": 4,
+    "orderDate": "2021-11-16"
+  },
+  {
+    "customer": {
+      "name": "EMANUEL",
+      "surname": "SZOSA",
+      "age": 24,
+      "email": "EMANUELSZOSA@gmail.com"
+    },
+    "product": {
+      "name": "KLAWIATURA",
+      "price": 441,
+      "category": "B"
+    },
+    "quantity": 6,
+    "orderDate": "2021-10-20"
+  },
+  {
+    "customer": {
+      "name": "ZOFIA",
+      "surname": "ALALAL",
+      "age": 55,
+      "email": "ZOFIAALALAL@gmail.com"
+    },
+    "product": {
+      "name": "ZELAZKO",
+      "price": 820,
+      "category": "B"
+    },
+    "quantity": 4,
+    "orderDate": "2021-11-14"
+  },
+  {
+    "customer": {
+      "name": "KAMIL",
+      "surname": "KAJAK",
+      "age": 53,
+      "email": "KAMILKAJAK@gmail.com"
+    },
+    "product": {
+      "name": "KOMPUTER",
+      "price": 934,
+      "category": "C"
+    },
+    "quantity": 10,
+    "orderDate": "2021-11-14"
+  },
+  {
+    "customer": {
+      "name": "ZOFIA",
+      "surname": "ZAILUM",
+      "age": 30,
+      "email": "ZOFIAZAILUM@gmail.com"
+    },
+    "product": {
+      "name": "MONITOR",
+      "price": 500,
+      "category": "A"
+    },
+    "quantity": 11,
+    "orderDate": "2021-10-25"
+  },
+  {
+    "customer": {
+      "name": "LUIZA",
+      "surname": "SZOSA",
+      "age": 55,
+      "email": "LUIZASZOSA@gmail.com"
+    },
+    "product": {
+      "name": "TABLET",
+      "price": 974,
+      "category": "C"
+    },
+    "quantity": 11,
+    "orderDate": "2021-10-16"
+  },
+  {
+    "customer": {
+      "name": "ZOFIA",
+      "surname": "MILA",
+      "age": 89,
+      "email": "ZOFIAMILA@gmail.com"
+    },
+    "product": {
+      "name": "TABLET",
+      "price": 547,
+      "category": "C"
+    },
+    "quantity": 5,
+    "orderDate": "2021-11-12"
+  },
+  {
+    "customer": {
+      "name": "MAREK",
+      "surname": "RACZKA",
+      "age": 34,
+      "email": "MAREKRACZKA@gmail.com"
+    },
+    "product": {
+      "name": "PLYTA",
+      "price": 1099,
+      "category": "B"
+    },
+    "quantity": 10,
+    "orderDate": "2021-10-28"
+  },
+  {
+    "customer": {
+      "name": "IWONA",
+      "surname": "KILA",
+      "age": 37,
+      "email": "IWONAKILA@gmail.com"
+    },
+    "product": {
+      "name": "MONITOR",
+      "price": 665,
+      "category": "C"
+    },
+    "quantity": 2,
+    "orderDate": "2021-11-13"
+  },
+  {
+    "customer": {
+      "name": "LUIZA",
+      "surname": "RAMIREZ",
+      "age": 60,
+      "email": "LUIZARAMIREZ@gmail.com"
+    },
+    "product": {
+      "name": "TABLET",
+      "price": 458,
+      "category": "A"
+    },
+    "quantity": 9,
+    "orderDate": "2021-10-29"
+  },
+  {
+    "customer": {
+      "name": "IZA",
+      "surname": "TRAUMA",
+      "age": 58,
+      "email": "IZATRAUMA@gmail.com"
+    },
+    "product": {
+      "name": "DYSK",
+      "price": 1062,
+      "category": "C"
+    },
+    "quantity": 9,
+    "orderDate": "2021-10-23"
+  },
+  {
+    "customer": {
+      "name": "ANASTAZJA",
+      "surname": "ROBAK",
+      "age": 61,
+      "email": "ANASTAZJAROBAK@gmail.com"
+    },
+    "product": {
+      "name": "TABLET",
+      "price": 1047,
+      "category": "D"
+    },
+    "quantity": 9,
+    "orderDate": "2021-10-11"
+  },
+  {
+    "customer": {
+      "name": "ALDONA",
+      "surname": "BANAN",
+      "age": 94,
+      "email": "ALDONABANAN@gmail.com"
+    },
+    "product": {
+      "name": "KURTKA",
+      "price": 1114,
+      "category": "A"
+    },
+    "quantity": 4,
+    "orderDate": "2021-11-17"
+  },
+  {
+    "customer": {
+      "name": "ANASTAZJA",
+      "surname": "KAJAK",
+      "age": 18,
+      "email": "ANASTAZJAKAJAK@gmail.com"
+    },
+    "product": {
+      "name": "PLYTA",
+      "price": 248,
+      "category": "A"
+    },
+    "quantity": 10,
+    "orderDate": "2021-11-27"
+  },
+  {
+    "customer": {
+      "name": "ANASTAZJA",
+      "surname": "SZOSA",
+      "age": 19,
+      "email": "ANASTAZJASZOSA@gmail.com"
+    },
+    "product": {
+      "name": "TELEFON",
+      "price": 1076,
+      "category": "C"
+    },
+    "quantity": 5,
+    "orderDate": "2021-11-15"
+  },
+  {
+    "customer": {
+      "name": "MAJKA",
+      "surname": "BANAN",
+      "age": 58,
+      "email": "MAJKABANAN@gmail.com"
+    },
+    "product": {
+      "name": "PLYTA",
+      "price": 869,
+      "category": "C"
+    },
+    "quantity": 7,
+    "orderDate": "2021-11-13"
+  }
+]
