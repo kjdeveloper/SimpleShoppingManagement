@@ -17,6 +17,8 @@ How to start:
 •	Run git clone in terminal to download project
 •	Go to terminal on the mainmenu level
 •	Run mvn clean compile assembly:single
+•   Change path for the file in mainmenu/jankowiak/kamil/mainmenu/App
+•   Change path for the test files in service/jankowiak/kamil/service/ServiceTest
 •	Go to mainmenu/target folder
 •	Run ‘mainmenu-1.0-SNAPSHOT-jar-with-dependencies.jar’
 
