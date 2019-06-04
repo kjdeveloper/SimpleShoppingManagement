@@ -1,4 +1,4 @@
-Shopping Management
+**Shopping Management**
 
 Project presents a list of order on which I use streams to take out the necessary information.
 The project was made in order to gain practice in technologies learned during the course.
@@ -7,22 +7,23 @@ The program was written in Java language version 11. To make everything work pro
 
 
 Used technologies:
-•	Java11
-•	Maven
-•	Junit5
-•	Gson
-•	J2html
+<p>•	Java11
+<p>•	Maven
+<p>•	Junit5
+<p>•	Gson
+<p>•	J2html
 
-How to start:
-•	Run git clone in terminal to download project
-•	Go to terminal on the mainmenu level
-•	Run 'mvn clean compile assembly:single'
-•   Change path for the file in mainmenu/jankowiak/kamil/mainmenu/App
-•   Change path for the test files in service/jankowiak/kamil/service/ServiceTest
-•	Go to mainmenu/target folder and run 'mainmenu-1.0-SNAPSHOT-jar-with-dependencies.jar' 
-                                    or
-•	Open the terminal at the target folder level and run 'java -cp mainmenu-1.0-SNAPSHOT-jar-with-dependencies.jar jankowiak.kamil.mainmenu.App'
+
+<h2>How to start:
+<p>•	Run git clone in terminal to download project
+<p>•	Go to terminal on the mainmenu level
+<p>•	Run 'mvn clean compile assembly:single'
+<p>•   Change path for the file in mainmenu/jankowiak/kamil/mainmenu/App
+<p>•   Change path for the test files in service/src/test/jankowiak/kamil/service/ServiceTest
+<p>•	Go to mainmenu/target folder and run 'mainmenu-1.0-SNAPSHOT-jar-with-dependencies.jar' 
+                                    <p><h3>or</h3></p>
+<p>•	Open the terminal at the target folder level and run 'java -cp mainmenu-1.0-SNAPSHOT-jar-with-dependencies.jar jankowiak.kamil.mainmenu.App'
 
 
 Author:
-Kamil Jankowiak
+**Kamil Jankowiak**
