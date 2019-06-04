@@ -1,4 +1,4 @@
-**Shopping Management**
+<h3>Shopping Management</h3>
 
 Project presents a list of order on which I use streams to take out the necessary information.
 The project was made in order to gain practice in technologies learned during the course.
@@ -6,7 +6,7 @@ The task has been divided into a module in accordance with the modular programmi
 The program was written in Java language version 11. To make everything work properly, You need to import the project from my profile on github.
 
 
-Used technologies:
+<h3>Used technologies:</h3>
 <p>•	Java12
 <p>•	Maven
 <p>•	Junit5
@@ -14,7 +14,7 @@ Used technologies:
 <p>•	J2html
 
 
-<h2>How to start:</h2>
+<h3>How to start:</h3>
 <p>•	Run git clone in terminal to download project
 <p>•	Go to terminal on the mainmenu level
 <p>•	Run 'mvn clean compile assembly:single'
