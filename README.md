@@ -7,7 +7,7 @@ The program was written in Java language version 11. To make everything work pro
 
 
 Used technologies:
-<p>•	Java11
+<p>•	Java12
 <p>•	Maven
 <p>•	Junit5
 <p>•	Gson
