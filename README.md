@@ -21,9 +21,9 @@ Used technologies:
 <p>•   Change path for the file in mainmenu/jankowiak/kamil/mainmenu/App
 <p>•   Change path for the test files in service/src/test/jankowiak/kamil/service/ServiceTest
 <p>•	Go to mainmenu/target folder and run 'mainmenu-1.0-SNAPSHOT-jar-with-dependencies.jar' 
-                                    <p><h3>or</h3></p>
+                                    <p><h4>or</h4></p>
 <p>•	Open the terminal at the target folder level and run 'java -cp mainmenu-1.0-SNAPSHOT-jar-with-dependencies.jar jankowiak.kamil.mainmenu.App'
 
 
-Author:
-**Kamil Jankowiak**
+<p>Author:<p>
+<h4>Kamil Jankowiak<h4>
