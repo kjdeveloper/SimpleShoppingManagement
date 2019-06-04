@@ -14,7 +14,7 @@ Used technologies:
 <p>•	J2html
 
 
-<h2>How to start:
+<h2>How to start:</h2>
 <p>•	Run git clone in terminal to download project
 <p>•	Go to terminal on the mainmenu level
 <p>•	Run 'mvn clean compile assembly:single'
