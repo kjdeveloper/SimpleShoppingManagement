@@ -24,6 +24,8 @@ Used technologies:
                                     <p><h4>or</h4></p>
 <p>•	Open the terminal at the target folder level and run 'java -cp mainmenu-1.0-SNAPSHOT-jar-with-dependencies.jar jankowiak.kamil.mainmenu.App'
 
-
+<br>
+<br>
+<br>
 <p>Author:<p>
 <h4>Kamil Jankowiak<h4>
