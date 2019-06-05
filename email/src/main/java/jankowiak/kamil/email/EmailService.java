@@ -17,9 +17,9 @@ import static j2html.TagCreator.*;
 
 public class EmailService {
 
-    private static final String emailAddress = "siwy247@gmail.com";
-    private static final String emailPassword = "aneczka247";
-    private static final String emailRecipient = "kamiljankowiak247@gmail.com";
+    private static final String emailAddress = "";
+    private static final String emailPassword = "";
+    private static final String emailRecipient = "";
 
     private void send(String to, String title, Customer customer, List<Order> html) throws MessagingException {
         System.out.println("SENDING EMAIL ...");
