@@ -1,23 +1,25 @@
 package jankowiak.kamil.email;
 
-import j2html.tags.Tag;
 import jankowiak.kamil.persistence.model.Customer;
 import jankowiak.kamil.persistence.model.Order;
+import jankowiak.kamil.persistence.model.Product;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Properties;
 import java.util.stream.Collectors;
 
-import static j2html.TagCreator.input;
+import static j2html.TagCreator.*;
 
 public class EmailService {
 
-    private static final String emailAddress = "";
-    private static final String emailPassword = "";
-    private static final String emailRecipient ="";
+    private static final String emailAddress = "siwy247@gmail.com";
+    private static final String emailPassword = "aneczka247";
+    private static final String emailRecipient = "kamiljankowiak247@gmail.com";
 
     private void send(String to, String title, Customer customer, List<Order> html) throws MessagingException {
         System.out.println("SENDING EMAIL ...");
@@ -28,16 +30,28 @@ public class EmailService {
         System.out.println("EMAIL SENT");
     }
 
-    private Tag createOrderListLikeHtml(Customer customer, List<Order> orderList) {
-        return input()
-                .withName(customer.getName())
-                .withType(String.valueOf(orderList
-                        .stream()
-                        .filter(customerX -> customerX.equals(customer))
-                        .collect(Collectors.toList())));
+    private String createOrderListLikeHtml(Customer customer, List<Order> orderList) {
+
+        Map<String, String> productsMap = orderList.stream()
+                .filter(customerX -> customerX.getCustomer().getEmail().equalsIgnoreCase(customer.getEmail()))
+                .collect(Collectors.toMap(
+                        o -> o.getProduct().getName() + ",  price: " + o.getProduct().getPrice() + ", order date: " + o.getOrderDate() + ", category: " + o.getProduct().getCategory(),
+                        o -> " Quantity: " + o.getQuantity(),
+                        (v1, v2) -> v1 + v2,
+                        LinkedHashMap::new
+                ));
+        return
+                html().attr("lang", "en").with(
+                        header()
+                                .with(h2("Hello " + customer.getName())),
+                        body()
+                                .with(h4( "There is your order " + customer.getName()))
+                                .with(h4(String.valueOf(productsMap)))
+                ).render();
+
     }
 
-    private void prepareEmailMessage(MimeMessage mimeMessage, String to, String title, Tag html) throws MessagingException {
+    private void prepareEmailMessage(MimeMessage mimeMessage, String to, String title, String html) throws MessagingException {
         mimeMessage.setContent(html, "text/html; charset=utf-8");
         mimeMessage.setFrom(new InternetAddress(emailAddress));
         mimeMessage.setRecipients(Message.RecipientType.TO, InternetAddress.parse(to));
@@ -59,10 +73,10 @@ public class EmailService {
         });
     }
 
-    public void sendEmail(Customer customer, List<Order> orderList) {
+    public void sendEmail(Customer customer, List<Order> orders) {
 
         try {
-            send(emailRecipient, "Order", customer, orderList);
+            send(emailRecipient, "Order", customer, orders);
         } catch (
                 MessagingException e) {
             e.printStackTrace();

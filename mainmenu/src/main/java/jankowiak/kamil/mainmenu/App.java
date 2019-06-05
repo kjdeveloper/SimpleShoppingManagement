@@ -7,7 +7,7 @@ public class App {
        /*DataGeneratorService dataGeneratorService = new DataGeneratorService();
         dataGeneratorService.saveToFile("C:\\Programowanie\\ShoppingManagementFinal\\persistence\\src\\main\\java\\jankowiak\\kamil\\persistence\\resources\\shoppingManagementOrderList.json");*/
 
-        var filename = "C:\\Users\\Admin\\Desktop\\ShoppingManagement\\persistence\\src\\main\\java\\jankowiak\\kamil\\persistence\\resources\\shoppingManagementOrderList.json";
+        var filename = "C:\\Users\\Admin\\Desktop\\Git\\ShoppingManagement\\persistence\\src\\main\\java\\jankowiak\\kamil\\persistence\\resources\\shoppingManagementOrderList.json";
         var menuService = new MenuService(filename);
         menuService.mainMenu();
     }

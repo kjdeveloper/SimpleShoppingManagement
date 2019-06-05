@@ -60,7 +60,7 @@ public class MenuService {
                     break;
 
                 case 3:
-                    Customer cust = Customer.builder().name("EMANUEL").surname("LUFA").age(88).email("EMANUELLUFA@gmail.com").build();
+                    Customer cust = Customer.builder().name("EMANUEL").surname("Szosa").age(88).email("EMANUELSZOSA@gmail.com").build();
                     option3(cust);
                     break;
 

@@ -19,7 +19,7 @@ public class ServiceTest {
     @DisplayName("Find all orders")
     public void test1() {
 
-        var jsonFilename = "C:\\Users\\Admin\\Desktop\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTests.json";
+        var jsonFilename = "C:\\Users\\Admin\\Desktop\\Git\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTests.json";
 
         var orders1 = new SimpleShoppingService(jsonFilename).findAll();
 
@@ -30,7 +30,7 @@ public class ServiceTest {
     @DisplayName("Find biggest spender")
     public void test2() {
 
-        var jsonFilename = "C:\\Users\\Admin\\Desktop\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTests.json";
+        var jsonFilename = "C:\\Users\\Admin\\Desktop\\Git\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTests.json";
 
         var customer = new SimpleShoppingService(jsonFilename).biggestSpender().getName();
 
@@ -41,7 +41,7 @@ public class ServiceTest {
     @DisplayName("Find avg price between earlier is before later date")
     public void test3() {
 
-        var jsonFilename = "C:\\Users\\Admin\\Desktop\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest3.json";
+        var jsonFilename = "C:\\Users\\Admin\\Desktop\\Git\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest3.json";
 
         var throwable = Assertions.assertThrows(
                 IllegalArgumentException.class,
@@ -55,7 +55,7 @@ public class ServiceTest {
     @DisplayName("Find avg price between two dates")
     public void test4() {
 
-        var jsonFilename = "C:\\Users\\Admin\\Desktop\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest3.json";
+        var jsonFilename = "C:\\Users\\Admin\\Desktop\\Git\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest3.json";
 
         var avg = new SimpleShoppingService(jsonFilename).averageOfAllProductsPriceBetweenTwoDates("2021-01-01", "2021-01-06");
 
@@ -66,7 +66,7 @@ public class ServiceTest {
     @DisplayName("Largest number of orders by date")
     public void test6() {
 
-        var jsonFilename = "C:\\Users\\Admin\\Desktop\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest6_7.json";
+        var jsonFilename = "C:\\Users\\Admin\\Desktop\\Git\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest6_7.json";
 
         var localDate = new SimpleShoppingService(jsonFilename).largestNumberOfOrders();
 
@@ -78,7 +78,7 @@ public class ServiceTest {
     @DisplayName("Smallest number of orders by date")
     public void test7() {
 
-        var jsonFilename = "C:\\Users\\Admin\\Desktop\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest6_7.json";
+        var jsonFilename = "C:\\Users\\Admin\\Desktop\\Git\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest6_7.json";
 
         var localDate = new SimpleShoppingService(jsonFilename).smallestNumberOfOrders();
 
@@ -89,7 +89,7 @@ public class ServiceTest {
     @DisplayName("Find customer with minimun quantity")
     public void test10() {
 
-        var jsonFilename = "C:\\Users\\Admin\\Desktop\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest10.json";
+        var jsonFilename = "C:\\Users\\Admin\\Desktop\\Git\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest10.json";
 
         var ordersTest = new SimpleShoppingService(jsonFilename).customersWithMinimunQuantity(3);
 
@@ -100,7 +100,7 @@ public class ServiceTest {
     @DisplayName("Most buyed category")
     public void test11() {
 
-        var jsonFilename = "C:\\Users\\Admin\\Desktop\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest11.json";
+        var jsonFilename = "C:\\Users\\Admin\\Desktop\\Git\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest11.json";
 
         var category = new SimpleShoppingService(jsonFilename).mostBuyedCategory();
 
@@ -112,7 +112,7 @@ public class ServiceTest {
     @DisplayName("Orders counter by month")
     public void test12() {
 
-        var jsonFilename = "C:\\Users\\Admin\\Desktop\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest12.json";
+        var jsonFilename = "C:\\Users\\Admin\\Desktop\\Git\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest12.json";
 
         var map = new SimpleShoppingService(jsonFilename).ordersCounterByMonth();
 
@@ -124,7 +124,7 @@ public class ServiceTest {
     @DisplayName("Category counter by month")
     public void test13() {
 
-        var jsonFilename = "C:\\Users\\Admin\\Desktop\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest13.json";
+        var jsonFilename = "C:\\Users\\Admin\\Desktop\\Git\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTest13.json";
 
         var map = new SimpleShoppingService(jsonFilename).ordersByMostBuyedCategoryInMonth();
 
@@ -135,7 +135,7 @@ public class ServiceTest {
     @DisplayName("String filename is null")
     public void test15() {
 
-        var jsonFilename = "C:\\Users\\Admin\\Desktop\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTests.json";
+        var jsonFilename = "C:\\Users\\Admin\\Desktop\\Git\\ShoppingManagement\\service\\src\\test\\java\\jankowiak\\kamil\\service\\resources\\ordersForTests.json";
 
         var throwable = Assertions.assertThrows(
                 NullPointerException.class,
