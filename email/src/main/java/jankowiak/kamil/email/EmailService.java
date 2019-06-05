@@ -19,7 +19,6 @@ public class EmailService {
 
     private static final String emailAddress = "";
     private static final String emailPassword = "";
-    private static final String emailRecipient = "";
 
     private void send(String to, String title, Customer customer, List<Order> html) throws MessagingException {
         System.out.println("SENDING EMAIL ...");
@@ -76,7 +75,7 @@ public class EmailService {
     public void sendEmail(Customer customer, List<Order> orders) {
 
         try {
-            send(emailRecipient, "Order", customer, orders);
+            send(customer.getEmail(), "Order", customer, orders);
         } catch (
                 MessagingException e) {
             e.printStackTrace();
